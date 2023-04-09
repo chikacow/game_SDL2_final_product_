@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1681029524 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	"CommonFunction.h"
+	"BaseObject.h"
+	"game_map.h"
+	"MainObject.h"
+	"ImpTimer.h"
+
+1681019055 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\baseobject.cpp
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1680262433 c:\users\audrey colar\downloads\btl_game\btl_ltnc\commonfunction.h
+	<iostream>
+	<windows.h>
+	<string>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+
+1680935768 c:\users\audrey colar\downloads\btl_game\btl_ltnc\baseobject.h
+	"CommonFunction.h"
+
+1680933415 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\game_map.cpp
+	"game_map.h"
+	<stdio.h>
+	<iostream>
+
+1680192778 c:\users\audrey colar\downloads\btl_game\btl_ltnc\game_map.h
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1680967548 c:\users\audrey colar\downloads\btl_game\btl_ltnc\mainobject.h
+	<vector>
+	"CommonFunction.h"
+	"BaseObject.h"
+	"BulletObject.h"
+
+1681016406 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\mainobject.cpp
+	"MainObject.h"
+
+1680262108 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\imptimer.cpp
+	"ImpTimer.h"
+	"CommonFunction.h"
+
+1680262098 c:\users\audrey colar\downloads\btl_game\btl_ltnc\imptimer.h
+
+1680967548 c:\users\audrey colar\downloads\btl_game\btl_ltnc\bulletobject.h
+	"BaseObject.h"
+	"CommonFunction.h"
+
+1680967548 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\bulletobject.cpp
+	"BulletObject.h"
+
