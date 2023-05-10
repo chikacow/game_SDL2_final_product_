@@ -24,6 +24,7 @@ final product
 - Touching the threats can be harmful, take care!
 - Use M button to turn off the sound
 - Use N button to turn on the sound
+- Secret: To switch to creative mode, press Q button
 
 # 3. Installed Libraries
 * This game was made by using the following matters:
