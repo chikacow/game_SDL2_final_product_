@@ -11,7 +11,7 @@ public:
     BulletObject();
     ~BulletObject();
 
-    enum BulletDir
+    enum BulletDir // định nghĩa huowgns bay của đạn
     {
         DIR_RIGHT = 20,
         DIR_LEFT = 21,
@@ -20,6 +20,14 @@ public:
         DIR_UP_RIGHT = 24,
         DIR_DOWN_LEFT = 25,
         DIR_DOWN_RIGHT = 26,
+    };
+
+    enum BulletType
+    {
+        SPHERE_BULLET = 50,
+        LASER_BULLET = 51,
+        SPECIAL_BULLET = 52
+
     };
 
 
@@ -37,11 +45,22 @@ public:
 
     void HandleMove(const int& x_border, const int& y_border); // hàm xử lí di chuyển của viên đạn
 
+    void set_bullet_type(const unsigned int& bulletType)
+    {
+        bullet_type_ = bulletType;
+    }
+    unsigned int get_bullet_type() const {return bullet_type_;}
+
+    bool LoadImgBullet (SDL_Renderer* des);
+
+
 private:
     int x_val_;  //luong gia tri thay doi bao nhieu
     int y_val_;
     bool is_move_; // loi dung de xoa di
     unsigned int bullet_direction_;
+
+    unsigned int bullet_type_;
 };
 
 #endif // BULLET_OBJECT_H

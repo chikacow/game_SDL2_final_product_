@@ -21,15 +21,15 @@ public:
     GameMap(){;}
     ~GameMap(){;}
 
-    void LoadMap(char* name);   //HAm doc file text
-    void LoadTiles(SDL_Renderer* screen);            // chon loai anh de load
-    void DrawMap (SDL_Renderer* screen);
+    void LoadMap(char* name);   //Hàm đọc file text
+    void LoadTiles(SDL_Renderer* screen);            // Hàm load đường dẫn hình ảnh các tile vào mảng
+    void DrawMap (SDL_Renderer* screen);        // Truyền hình ảnh vào đúng chỗ
     Map getMap() const {return game_map_;}
     void SetMap(Map& map_data) {game_map_ = map_data;}
 
 private:
-    Map game_map_;
-    TileMat tile_mat[MAX_TILES];  //so loai hinh anh
+    Map game_map_;  // lưu trữ thông tin về các ô
+    TileMat tile_mat[MAX_TILES];  //Mảng lưu các loại tile sẽ sử dụng, tối đa 20 loại
 };
 
 

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1681029524 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\main.cpp
+1683690833 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\main.cpp
 	<SDL.h>
 	<SDL_image.h>
 	"CommonFunction.h"
@@ -7,12 +7,18 @@
 	"game_map.h"
 	"MainObject.h"
 	"ImpTimer.h"
+	"ThreatObject.h"
+	"ExplosionObject.h"
+	"TextObject.h"
+	"PlayersStuff.h"
+	"Geometric.h"
+	"BossObject.h"
 
-1681019055 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\baseobject.cpp
+1683476678 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\baseobject.cpp
 	"CommonFunction.h"
 	"BaseObject.h"
 
-1680262433 c:\users\audrey colar\downloads\btl_game\btl_ltnc\commonfunction.h
+1683630750 c:\users\audrey colar\downloads\btl_game\btl_ltnc\commonfunction.h
 	<iostream>
 	<windows.h>
 	<string>
@@ -22,26 +28,27 @@
 	<SDL_image.h>
 	<stdio.h>
 	<stdlib.h>
+	<vector>
 
-1680935768 c:\users\audrey colar\downloads\btl_game\btl_ltnc\baseobject.h
+1683476678 c:\users\audrey colar\downloads\btl_game\btl_ltnc\baseobject.h
 	"CommonFunction.h"
 
-1680933415 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\game_map.cpp
+1681222799 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\game_map.cpp
 	"game_map.h"
 	<stdio.h>
 	<iostream>
 
-1680192778 c:\users\audrey colar\downloads\btl_game\btl_ltnc\game_map.h
+1683123108 c:\users\audrey colar\downloads\btl_game\btl_ltnc\game_map.h
 	"CommonFunction.h"
 	"BaseObject.h"
 
-1680967548 c:\users\audrey colar\downloads\btl_game\btl_ltnc\mainobject.h
+1683691838 c:\users\audrey colar\downloads\btl_game\btl_ltnc\mainobject.h
 	<vector>
 	"CommonFunction.h"
 	"BaseObject.h"
 	"BulletObject.h"
 
-1681016406 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\mainobject.cpp
+1683681721 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\mainobject.cpp
 	"MainObject.h"
 
 1680262108 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\imptimer.cpp
@@ -50,10 +57,66 @@
 
 1680262098 c:\users\audrey colar\downloads\btl_game\btl_ltnc\imptimer.h
 
-1680967548 c:\users\audrey colar\downloads\btl_game\btl_ltnc\bulletobject.h
+1683690251 c:\users\audrey colar\downloads\btl_game\btl_ltnc\bulletobject.h
 	"BaseObject.h"
 	"CommonFunction.h"
 
-1680967548 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\bulletobject.cpp
+1683690251 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\bulletobject.cpp
+	"BulletObject.h"
+
+1683690620 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\threatobject.cpp
+	"ThreatObject.h"
+	"BaseObject.h"
+	"CommonFunction.h"
+
+1683566754 c:\users\audrey colar\downloads\btl_game\btl_ltnc\threatobject.h
+	"CommonFunction.h"
+	"BaseObject.h"
+	"MainObject.h"
+	"BulletObject.h"
+
+1681918623 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\geometric.cpp
+	"Geometric.h"
+
+1681918816 c:\users\audrey colar\downloads\btl_game\btl_ltnc\geometric.h
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1683477585 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\commonfunction.cpp
+	"CommonFunction.h"
+	"TextObject.h"
+
+1681903065 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\explosionobject.cpp
+	"ExplosionObject.h"
+
+1681903504 c:\users\audrey colar\downloads\btl_game\btl_ltnc\explosionobject.h
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1683692636 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\textobject.cpp
+	"TextObject.h"
+	"CommonFunction.h"
+
+1683688386 c:\users\audrey colar\downloads\btl_game\btl_ltnc\textobject.h
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1683564978 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\playersstuff.cpp
+	"PlayersStuff.h"
+	"CommonFunction.h"
+	"MainObject.h"
+
+1683560066 c:\users\audrey colar\downloads\btl_game\btl_ltnc\playersstuff.h
+	"CommonFunction.h"
+	"BaseObject.h"
+
+1683643892 source:c:\users\audrey colar\downloads\btl_game\btl_ltnc\bossobject.cpp
+	"BossObject.h"
+	"BaseObject.h"
+	"CommonFunction.h"
+
+1683643870 c:\users\audrey colar\downloads\btl_game\btl_ltnc\bossobject.h
+	"BaseObject.h"
+	"CommonFunction.h"
 	"BulletObject.h"
 
