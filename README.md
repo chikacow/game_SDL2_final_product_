@@ -55,6 +55,6 @@ https://www.youtube.com/watch?v=WmUU4jZGijE&t=1s
 - Big thanks to my two teachers, Mr.Le Quang Hieu and Mr.Pham Tuan Dung for helping me complete this game project.
 - This project is copyright claimed. 
 - Contacts: Cao Chi Kien CA-CLC4_K67_UET_22028065
-- Email: 22028065vnu.edu.vn.
+- Email: 22028065@vnu.edu.vn.
 
 
